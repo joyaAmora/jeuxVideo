@@ -84,7 +84,7 @@ class Mover extends GraphicObject {
     velocity.limit(topSpeed);
 
     theta = velocity.heading() + radians(90);
-
+    getCircle().location = location;
     location.add (velocity);
 
     acceleration.mult (0);      

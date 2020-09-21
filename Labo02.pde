@@ -99,8 +99,8 @@ void update(int delta) {
        float offsetX = m.location.x - portalB.getCircle().location.x;
        float offsetY = m.location.y - portalB.getCircle().location.y;
        
-       m.location.x = portalB.getCircle().location.x-offsetX;
-       m.location.y = portalB.getCircle().location.y-offsetY;
+       m.location.x = portalA.getCircle().location.x-offsetX;
+       m.location.y = portalA.getCircle().location.y-offsetY;
      }
     }
   } 
